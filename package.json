@@ -5,8 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node src/ server.js" 
-
+    "start": "node src/ server.js"
   },
   "keywords": [
     "JavaScript",
@@ -15,6 +14,13 @@
     "MongoDB"
   ],
   "author": "Aditya",
-  "license": "ISC"
-  
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
